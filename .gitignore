@@ -1,0 +1,33 @@
+# Virtual Environments
+venv/
+env/
+tf-env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# OS / system
+.DS_Store
+Thumbs.db
+
+# Logs, data, models
+*.log
+*.tmp
+*.h5
+*.ckpt
+*.pb
+*.pkl
+*.pt
+*.tflite
+*.onnx
+
+# Datasets
+data/
+datasets/
