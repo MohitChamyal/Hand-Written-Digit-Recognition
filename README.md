@@ -1,28 +1,51 @@
 # 🧠 Handwritten Digit Recognition
 
-This project is a **deep learning-based web application** that can recognize handwritten digits (0–9) from images. It leverages a trained Convolutional Neural Network (CNN) using TensorFlow/Keras, with a Flask-powered frontend.
+This project is designed to recognize handwritten digits (0-9) using a deep learning-based web application. It uses a Convolutional Neural Network (CNN) model trained with TensorFlow/Keras and deployed with a Flask-powered frontend.
 
 ---
 
-## 🚀 Features
+## 📊 Dataset
 
-- 📷 Upload any image containing a handwritten digit
-- 🔢 Get instant prediction of the digit (0–9)
-- 💻 Lightweight web interface using Flask
-- 🧪 Trained on the famous MNIST dataset
-- 📊 High accuracy model (~99% on validation)
+The dataset used is the **MNIST** (Modified National Institute of Standards and Technology) dataset, which consists of 28x28 grayscale images of handwritten digits. It is widely used for training image classification models.
+
+- **Features**: 28x28 pixel grayscale images of handwritten digits
+- **Target**: Digit classification (0–9)
 
 ---
 
-## 🧠 About the Model
+## 🧠 Model Used
 
 - **Architecture**: Convolutional Neural Network (CNN)
-- **Framework**: TensorFlow & Keras
-- **Dataset Used**: [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
+- **Framework**: TensorFlow/Keras
 - **Input Shape**: 28x28 grayscale images
 - **Output**: Class probabilities for digits 0–9
 
 ---
 
-## 📁 Project Structure
+## 🧪 Evaluation Metrics
+
+- **Accuracy**: ~99% on validation data
+- **Loss Function**: Sparse Categorical Crossentropy
+- **Optimization**: Adam Optimizer
+- **Metrics**: Accuracy
+
+---
+
+## 📈 Key Results
+
+- The model achieves high accuracy (~99%) on the validation dataset.
+- It can classify handwritten digits (0-9) from images with near-human accuracy.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Programming Language**: Python
+- **Libraries**:
+  - TensorFlow, Keras (for model building)
+  - Flask (for the web app)
+  - NumPy, Pandas (for data manipulation)
+  - Matplotlib, Seaborn (for visualization)
+- **Frontend**: HTML (for web interface)
+- **Hosting**: Localhost for testing
 
